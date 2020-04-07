@@ -23,7 +23,8 @@ class Song
   end
 
   def self.new_by_filename(filename)
-    
+    new_instance.artist.name = artist.name
+    new_instance.name = song.name 
   end
 
 
