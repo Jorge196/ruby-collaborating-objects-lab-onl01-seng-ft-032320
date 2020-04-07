@@ -45,7 +45,8 @@ class Artist
   end
 
   def print_songs
-    pr
+    print.song.artist
+  end 
 
 
 end
