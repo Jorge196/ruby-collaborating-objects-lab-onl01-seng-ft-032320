@@ -28,8 +28,7 @@ class Artist
         else
           artist
         end
-# (1..10).find_all { |i|  i % 3 == 0 }
-  # binding.pry
+
   end
 
   def songs
@@ -39,10 +38,14 @@ class Artist
       # song.name ==
     end
   end
+
   def add_song(song)
     # binding.pry
     song.artist = self
   end
+
+  def print_songs
+    pr
 
 
 end
